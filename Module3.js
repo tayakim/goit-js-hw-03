@@ -11,6 +11,15 @@
 // user.hobby = 'skydiving';
 // user.premium = false;
 
+// using for..of
+// const entries = Object.entries(user);
+// for (const entry of entries) {
+//     const key = entry[0];
+//     const value = entry[1];
+
+//     console.log(`${key}: ${value}`);
+// }
+
 // for (const person in user) {
 //     Object.keys(user);
 // }
@@ -18,11 +27,9 @@
 
 // Task #2
 // const countProps = function(obj) {
-//     let count = 0;
-//     for (const key in obj) {
-//         count += 1;
-//     }
-//     return count;
+//     let length = Object.keys(obj).length;
+
+//     return length;
 // };
 
 // console.log(countProps({})); // 0

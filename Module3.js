@@ -109,10 +109,16 @@
 
 // const getAllPropValues = function(arr, prop) {
 //     const result = [];
+
 //     for (product of arr) {
+//         if (!product[prop]) {
+//             return [];
+//         }
+
 //         result.push(product[prop]);
 //     }
-//     console.log(result);
+
+//     return result;
 // };
 
 
@@ -121,3 +127,27 @@
 // console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
 
 // console.log(getAllPropValues(products, 'category')); // []
+
+// Task #6
+// const products = [
+//     { name: 'Радар', price: 1300, quantity: 4 },
+//     { name: 'Сканер', price: 2700, quantity: 3 },
+//     { name: 'Дроид', price: 400, quantity: 7 },
+//     { name: 'Захват', price: 1200, quantity: 2 },
+// ];
+
+// const calculateTotalPrice = function(allProdcuts, productName) {
+//     let totalPrice = 0;
+//     for (product of allProdcuts) {
+//         if (product.name === productName) {
+//             totalPrice = product.price * product.quantity;
+//         }
+
+//     }
+//     return totalPrice;
+// };
+
+
+// console.log(calculateTotalPrice(products, 'Радар')); // 5200
+
+// console.log(calculateTotalPrice(products, 'Дроид')); // 2800

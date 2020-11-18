@@ -5,25 +5,15 @@
 //     hobby: 'html',
 //     premium: true,
 // };
-// // add new 
+
 // user.mood = 'happy';
-// // change 
 // user.hobby = 'skydiving';
 // user.premium = false;
 
-// using for..of
-// const entries = Object.entries(user);
-// for (const entry of entries) {
-//     const key = entry[0];
-//     const value = entry[1];
-
-//     console.log(`${key}: ${value}`);
+// const keys = Object.keys(user);
+// for (const key of keys) {
+//     console.log(`${key}: ${user[key]}`);
 // }
-
-// for (const person in user) {
-//     Object.keys(user);
-// }
-// console.log(user);
 
 // Task #2
 // const countProps = function(obj) {
@@ -158,3 +148,15 @@
 // console.log(calculateTotalPrice(products, 'Радар')); // 5200
 
 // console.log(calculateTotalPrice(products, 'Дроид')); // 2800
+
+
+// const printMessage = function(message) {
+//     console.log(message);
+// };
+
+// const higherOrderFunction = function(callback) {
+//     const string = 'HOCs are awesome';
+//     callback(string);
+// };
+
+// higherOrderFunction(printMessage);
